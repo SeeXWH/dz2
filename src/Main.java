@@ -55,7 +55,7 @@ public class Main {
         var timeWorkPeople = 8;
         var people = timeWork / timeWorkPeople;
         System.out.println("всего работников компании - " + people + " человек");
-        System.out.println("Если в компании работает "+ (people + 94) + " человек, то всего " +(timeWorkPeople*people+94)+ " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает "+ (people + 94) + " человек, то всего " +(timeWorkPeople*(people+94))+ " часов работы может быть поделено между сотрудниками");
 
 
     }
