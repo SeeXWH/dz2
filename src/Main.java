@@ -52,10 +52,10 @@ public class Main {
         System.out.println(secondBoxerMass % firstBoxerMass);
 
         var timeWork = 640;
-        var timeWorkPeople = 4;
+        var timeWorkPeople = 8;
         var people = timeWork / timeWorkPeople;
         System.out.println("всего работников компании - " + people + " человек");
-        System.out.println("Если в компании работает "+ (people + 94) + " человек, то всего " +(640/(people+94))+ " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает "+ (people + 94) + " человек, то всего " +(timeWorkPeople*people+94)+ " часов работы может быть поделено между сотрудниками");
 
 
     }
